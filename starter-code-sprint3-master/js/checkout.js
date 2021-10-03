@@ -17,9 +17,7 @@ var errorPhone = document.getElementById('errorPhone').innerHTML;
 var errorPassword = document.getElementById("errorPassword").innerHTML;
 
 
-   //name
-   
-   //last name   
+     
    
   
  
@@ -249,11 +247,7 @@ var errorPassword = document.getElementById("errorPassword").innerHTML;
 
    
     
-   /*if(name.value.length==0||lastName.value.length==0||email.value.length==0||password.value.length==0||address.value.length==0||phone.value.length==0){
-      alert('All camps required')
-      //document.getElementById("mensaje").classList.add('mensaje-activo');
-      return false;
-   }*/
+   
    
    
     
