@@ -85,8 +85,23 @@ function addToCartList(id) {
     cartList.push(products[id-1]);
 }
 
-// Exercise 2
-function cleanCart() {
+// Exercise 2  Segons enunciat s'ha de buidar cartList. Pero si es vol buidar qualsevol array es passa per paràmetre l'array a buidar
+function cleanCart1() {
+    cartList=[];
+}
+
+addToCartList(1);
+addToCartList(2);
+addToCartList(3);
+console.log(cartList.length);
+console.log(cartList);
+cleanCart1();
+console.log(cartList.length);
+console.log(cartList);
+
+
+//Pero si es vol buidar qualsevol array es passa per paràmetre l'array a buidar
+function cleanCart2(cartList){
     cartList=[];
 }
 
@@ -248,7 +263,7 @@ function addToCart(id){
 
 // Exercise 9
 // 1. Loop for to the array products to get the item to add to cart
-console.log('Quin producte vols esborrar?:');
+//console.log('Quin producte vols esborrar?:');
 mostraProductes(cart);//retorna l'array products amb un número d'id
 function removeFromCart(id) {
     // 2. Add found product to the cartList array
