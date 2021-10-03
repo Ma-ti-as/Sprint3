@@ -2,7 +2,28 @@
 
 body {
     font-family: Poppins;
+    
 }
-#errorPassword, #errorName, #errorPhone {
+/*#errorPassword, #errorName, #errorPhone {
+    display: none;
+}*/
+.input-error{
     display: none;
 }
+.input{
+    width: 100%;}
+    
+.input-error-active{
+    border:6px solid red;
+}
+
+    
+.mensaje{
+    display:none;
+}
+.mensaje-activo{
+    
+    color:black;
+    display:block;
+}
+
